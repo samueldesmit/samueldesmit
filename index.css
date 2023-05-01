@@ -87,7 +87,7 @@ body {
     background-color: cornflowerblue;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1768px) {
     .hamburger {
         display: block;
     }
