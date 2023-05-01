@@ -15,9 +15,11 @@ body {
     /*background-size: cover;*/
     /*background-attachment: fixed;*/
     height: 100svh;
-    background-color: indianred;
+    background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -28,6 +30,7 @@ body {
     align-items: center;
     padding: 0 24px;
     background-color: rgba(255, 255, 255, 0.8);
+    width: 100vw;
 }
 
 .navbar a {
@@ -95,6 +98,11 @@ body {
     background-color: cornflowerblue;
 }
 
+main img {
+    width: 700px;
+}
+
+
 @media (max-width: 1268px) {
     .hamburger {
         display: block;
@@ -136,22 +144,31 @@ body {
 
     .nav-item a {
         font-size: 50px;
-
     }
+
+    main img {
+        width: 400px;
+    }
+
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1 ;
 }
 
 footer {
    /*background-color: red;*/
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100vw;
 
 }
 
 footer a {
     margin: 0 40px;
-    font-size: 80px;
+    font-size: 70px;
     color: cornflowerblue;
 }
