@@ -30,6 +30,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: cornflowerblue;
+    font-size: 50px;
 }
 .nav-menu {
     display: flex;
@@ -42,6 +43,7 @@ body {
 .nav-menu a {
     text-decoration: none;
     color: cornflowerblue;
+    font-size: 30px;
 }
 
 .nav-home {
@@ -89,7 +91,7 @@ body {
     background-color: cornflowerblue;
 }
 
-@media (max-width: 1768px) {
+@media (max-width: 1268px) {
     .hamburger {
         display: block;
     }
@@ -106,6 +108,7 @@ body {
     }
 
     .nav-menu {
+        padding: 150px 0;
         position: fixed;
         right: -100%;
         top: 70px;
@@ -123,6 +126,10 @@ body {
     }
     .nav-menu.active {
         right: 0;
+    }
+    .nav-item a {
+        font-size: 50px;
+
     }
 
 }
