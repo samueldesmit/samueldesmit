@@ -7,14 +7,21 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+html {
+    height: -webkit-fill-availible;
+}
+
 body {
     position: relative;
     /*background-image: url("./assets/Profiel foto.jpg");*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
     /*background-attachment: fixed;*/
-    height: 100vh;
+    min-height: 100vh;
     background-color: indianred;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -32,6 +39,7 @@ body {
     color: cornflowerblue;
     font-size: 50px;
 }
+
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -99,6 +107,7 @@ body {
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
+
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(12px) rotate(45deg);
     }
@@ -124,9 +133,11 @@ body {
     .nav-item {
         margin: 16px 0;
     }
+
     .nav-menu.active {
         right: 0;
     }
+
     .nav-item a {
         font-size: 50px;
 
@@ -134,10 +145,12 @@ body {
 
 }
 
+main {
+    flex: 1 ;
+}
+
 footer {
-    position: absolute;
-    bottom: 60px;
-    right: 20px;
+   background-color: black;
 }
 
 footer a {
