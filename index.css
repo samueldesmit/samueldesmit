@@ -8,7 +8,7 @@
 }
 
 html {
-    max-height: -webkit-fill-availible;
+    max-height: 100%;
 
 }
 
@@ -20,7 +20,7 @@ body {
     /*background-attachment: fixed;*/
     min-height: 100vh;
     background-color: indianred;
-    max-height: -webkit-fill-available;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -151,7 +151,7 @@ main {
 }
 
 footer {
-   background-color: black;
+   background-color: red;
 }
 
 footer a {
