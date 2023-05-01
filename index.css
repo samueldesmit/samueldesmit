@@ -7,10 +7,6 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-html {
-    max-height: 100%;
-
-}
 
 body {
     position: relative;
@@ -18,9 +14,8 @@ body {
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
     /*background-attachment: fixed;*/
-    min-height: 100vh;
+    height: 100svh;
     background-color: indianred;
-    max-height: 100%;
     display: flex;
     flex-direction: column;
 }
