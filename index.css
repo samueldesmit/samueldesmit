@@ -8,7 +8,8 @@
 }
 
 html {
-    height: -webkit-fill-availible;
+    max-height: -webkit-fill-availible;
+
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     /*background-attachment: fixed;*/
     min-height: 100vh;
     background-color: indianred;
-    height: -webkit-fill-available;
+    max-height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
 }
